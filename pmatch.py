@@ -8,9 +8,9 @@ Hi HiHi Metacharacters needed to be escaped:.^*$\+?[]|()rstforum.net
 pattern = re.compile(r'\d{1,3}\-\d{1,3}\-\d{1,4}')
 matches = pattern.finditer(text_search)
 
+print("Using Regular Expression")
 for match in matches:
-    print("Using Regular Expression")
-    print(match)
+    print(match.group())
     
 def isphonenumber():
     ss = text_search.split()
