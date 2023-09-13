@@ -2,7 +2,7 @@
 
 num1 = float(input("Enter 1st test marks: "))
 num2 = float(input("Enter 2nd test marks: "))
-num3 = float(input("Enter 3rd test marks: "))
+num3 = float(input("Enter 3rd test marks: ")) 
 
 if(num1 >= num2) and (num1 >= num3):
     if(num2 >= num3):
