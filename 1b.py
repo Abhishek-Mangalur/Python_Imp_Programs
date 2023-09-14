@@ -11,4 +11,4 @@ while(n != 0):
 if(temp == rev):
     print("It's a Palindrome")
 else:
-    print("It's not a Palindrome")
+    print("It's not a Palindrome") 
