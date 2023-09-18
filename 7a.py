@@ -17,7 +17,7 @@ class Circle(Shape):
     
 class Rectangle(Shape):
     def __init__(self,length,breadth):
-        self. name = "Rectangle"
+        self.name = "Rectangle"
         self.length = length
         self.breadth = breadth
         
