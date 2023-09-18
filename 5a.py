@@ -25,5 +25,5 @@ def isphonenumber():
         if tran.isdigit():
             print(i)
             
-print("Without using Regular Expression")
+print("\nWithout using Regular Expression")
 isphonenumber()
