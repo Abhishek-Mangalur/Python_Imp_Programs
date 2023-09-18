@@ -13,3 +13,4 @@ print("Uppercase letters: ", uppercase)
 print("Lowercase letters: ", lowercase)
 print("Total digits: ", digit)
 print("Total words: ", len(str.split()))
+ 
