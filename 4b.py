@@ -19,5 +19,5 @@ def romanToInt(str):
             i += 1
     return total
 
-roman = input("Enter the roman numbers: ")
+roman = input("Enter the roman numbers: ").upper()
 print("The roman number {} conveted to integer is {}".format(roman, romanToInt(roman)))
